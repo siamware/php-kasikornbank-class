@@ -27,7 +27,7 @@ Paypal: likecyber.unlimit@gmail.com
 
 PromptPay: 091-314-7533 (Thiranat Mahattanobon)
 
-BTC address: 3ASp8h7zo1exHJ2ZGNbEdu5kahY5XoNerN
+BTC Address: 3ASp8h7zo1exHJ2ZGNbEdu5kahY5XoNerN
 
 ETH Address: 0x7d0068B8ba02F18e79abdFC5e33B94830A6c93fA
 
