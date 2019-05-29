@@ -131,8 +131,8 @@ These variables can be used if you need them.
 - GetStatement() function can not get today Statement, you need to use GetTodayStatement() function instead.
 - GetStatement() function will get Statement in the last 30 days (not included today) by default.
 - setCredentials() function will NOT destroy current cookie session when called.
-- If you set $retry_login parameter to true, it will automatically re-login if the session become invalid.
-- If you set $retry_token parameter to true, it will automatically re-obtain if the token is unavailable.
+- If you set $retry_login parameter to true, the session will automatically re-login if the session become invalid.
+- If you set $retry_token parameter to true, the token will automatically re-obtain if the token is unavailable.
 
 ---
 
