@@ -10,7 +10,7 @@ if (!$kbank->CheckSession()) {
 	$kbank->Login();
 }
 
-// Get Today's Statement
+// Get Today's Statement.
 print_r($kbank->GetTodayStatement("XXX-X-XXXXX-X"));
 
 ```
@@ -127,8 +127,7 @@ These variables can be used if you need them.
 - Make sure to disable access to cookie file from website visitors.
 - $this->request()  will automatically convert encoding from Windows-874 to UTF-8.
 - "org.apache.struts.taglib.html.TOKEN" field will be automatically filled if available when POST.
-- Account Number or Account ID can be used as $account_number in 
-Statement() and GetTodayStatement() functions.
+- Account Number or Account ID can be used as $account_number in Statement() and GetTodayStatement() functions.
 - GetStatement() function can not get today Statement, you need to use GetTodayStatement() function instead.
 - GetStatement() function will get Statement in the last 30 days (not included today) by default.
 - setCredentials() function will NOT destroy current cookie session when called.
